@@ -29,14 +29,36 @@
             <article>
                 <span>Article</span>
                 <header><span>Header</span></header>
-                <p><span>P</span></p>
-                <p><span>p</span></p>
+                <figure>
+                    <img src="img/pic_trulli.jpg" alt="Trulli" style="width:100%">
+                    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                </figure>
+                <p>
+                    <q>Lorem ipsum.</q>
+                    <label for="disk_d">Disk usage D:</label>
+                    <meter id="disk_d" value="0.6">60%</meter>
+                </p>
                 <footer><span>Footer</span></footer>
             </article>
             <article>
                 <header><span>Header</span></header>
                 <div class="align-content">
-                    <p><span>P</span></p>
+                    <p>
+                        <label for="file">Downloading progress:</label>
+                        <progress id="file" value="32" max="100"> 32% </progress>
+
+                        <audio controls>
+                            <source src="horse.ogg" type="audio/ogg">
+                            <source src="horse.mp3" type="audio/mpeg">
+                            Your browser does not support the audio tag.
+                        </audio> 
+
+                        <video width="320" height="240" controls>
+                            <source src="movie.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video> 
+                    </p>
                     <aside><span>aside</span></aside>
                 </div>
                 <footer><span>Footer</span></footer>

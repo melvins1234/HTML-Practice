@@ -16,6 +16,11 @@ header{
   margin: 10px 0;
 }
 
+img{
+  width: 100%;
+  max-width: 200px;
+}
+
 nav{
   background: white;
   padding: 5px;
